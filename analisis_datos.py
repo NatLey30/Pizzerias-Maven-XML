@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
     for fichero in ficheros_analizar:
         
-        df = pd.read_csv(fichero, sep=",", encoding = "LATIN_1")
+        df = pd.read_csv(fichero, sep = ',', encoding = 'LATIN1')
         fichero = ET.SubElement(root, 'fichero', {'nombre': fichero})
         
         nans = str(df.isna().sum().sum())
