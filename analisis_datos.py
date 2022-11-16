@@ -7,10 +7,10 @@ def archivo(fichero):
     fichero = ET.SubElement(root, 'fichero', {'nombre': fichero})
 
     nans = str(df.isna().sum().sum())
-    NaN = ET.SubElement(fichero, 'NaN_en_todo_el_fichero', {'nº': nans})
+    ET.SubElement(fichero, 'NaN_en_todo_el_fichero', {'nº': nans})
 
     nulls = str(df.isnull().sum().sum())
-    Null = ET.SubElement(fichero, 'Null_en_todo_el_fichero', {'nº': nulls})
+    ET.SubElement(fichero, 'Null_en_todo_el_fichero', {'nº': nulls})
 
     columnas = df.columns.values
     for colum in range(len(columnas)):
@@ -19,7 +19,7 @@ def archivo(fichero):
         columna = ET.SubElement(fichero, 'columna', {'nombre': nombre})
 
         tipo_col = str(df[columnas[colum]].dtype)
-        tipo_columna = ET.SubElement(columna, 'tipo_dato', {'tipo': tipo_col})
+        ET.SubElement(columna, 'tipo_dato', {'tipo': tipo_col})
 
 if __name__ == "__main__":
 
@@ -36,4 +36,3 @@ if __name__ == "__main__":
     tree = ET.ElementTree(root)
     ET.indent(tree)
     tree.write('Analisis_datos.xml', xml_declaration=True, encoding='utf-8')
-
