@@ -5,15 +5,23 @@
     <Null_en_todo_el_fichero nº="0" />
     <columna nombre="order_details_id">
       <tipo_dato tipo="int64" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="order_id">
       <tipo_dato tipo="int64" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="pizza_id">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="quantity">
       <tipo_dato tipo="int64" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
   </fichero>
   <fichero nombre="orders.csv">
@@ -21,12 +29,18 @@
     <Null_en_todo_el_fichero nº="0" />
     <columna nombre="order_id">
       <tipo_dato tipo="int64" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="date">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="time">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
   </fichero>
   <fichero nombre="data_dictionary.csv">
@@ -34,12 +48,18 @@
     <Null_en_todo_el_fichero nº="0" />
     <columna nombre="Table">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="Field">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="Description">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
   </fichero>
   <fichero nombre="pizzas.csv">
@@ -47,15 +67,23 @@
     <Null_en_todo_el_fichero nº="0" />
     <columna nombre="pizza_id">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="pizza_type_id">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="size">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="price">
       <tipo_dato tipo="float64" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
   </fichero>
   <fichero nombre="pizza_types.csv">
@@ -63,15 +91,23 @@
     <Null_en_todo_el_fichero nº="0" />
     <columna nombre="pizza_type_id">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="name">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="category">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
     <columna nombre="ingredients">
       <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
     </columna>
   </fichero>
 </Análisis>
