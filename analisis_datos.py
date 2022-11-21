@@ -45,8 +45,8 @@ if __name__ == "__main__":
 
     root = ET.Element('Análisis')
 
-    fichero = archivo('order_details.csv')
-    fichero = archivo('orders.csv')
+    fichero = archivo('order_details_ordenado.csv')
+    fichero = archivo('orders_ordenado.csv')
     fichero = archivo('data_dictionary.csv')
     fichero = archivo('pizzas.csv')
     fichero = archivo('pizza_types.csv')

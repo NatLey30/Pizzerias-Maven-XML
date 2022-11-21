@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Análisis>
-  <fichero nombre="order_details.csv">
+  <fichero nombre="order_details_ordenado.csv">
     <NaN_en_todo_el_fichero nº="0" />
     <Null_en_todo_el_fichero nº="0" />
     <columna nombre="order_details_id">
@@ -24,7 +24,7 @@
       <nulls_columna nº="0" />
     </columna>
   </fichero>
-  <fichero nombre="orders.csv">
+  <fichero nombre="orders_ordenado.csv">
     <NaN_en_todo_el_fichero nº="0" />
     <Null_en_todo_el_fichero nº="0" />
     <columna nombre="order_id">
@@ -38,6 +38,11 @@
       <nulls_columna nº="0" />
     </columna>
     <columna nombre="time">
+      <tipo_dato tipo="object" />
+      <nans_columna nº="0" />
+      <nulls_columna nº="0" />
+    </columna>
+    <columna nombre="dates_std">
       <tipo_dato tipo="object" />
       <nans_columna nº="0" />
       <nulls_columna nº="0" />
