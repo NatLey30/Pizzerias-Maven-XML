@@ -15,7 +15,7 @@ Los ficheros de salida son:
 - orders_ordenado.csv
 - compra_semanal.csv
 - compra_semanal.xml
-- analisis_datos_xml.xml
+- analisis_datos.xml
 
 Los archivos de transformación son:
 - compra.py
